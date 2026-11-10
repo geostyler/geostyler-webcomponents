@@ -1,0 +1,8 @@
+name: Lint Commit Messages
+on: [pull_request, push]
+
+jobs:
+  commitlint:
+    uses: geostyler/workflows/.github/workflows/commitlint.yml@main
+    with:
+      config-file: .commitlint.config.js

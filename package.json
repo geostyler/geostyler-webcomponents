@@ -1,0 +1,29 @@
+{
+  "name": "geostyler-webcomponents",
+  "version": "0.0.1",
+  "description": "Web Component wrapper for the GeoStyler UI.",
+  "keywords": [
+    "geostyler",
+    "webcomponents",
+    "web",
+    "components"
+  ],
+  "homepage": "https://github.com/geostyler/geostyler-webcomponents#readme",
+  "bugs": {
+    "url": "https://github.com/geostyler/geostyler-webcomponents/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geostyler/geostyler-webcomponents.git"
+  },
+  "license": "BSD-2-Clause",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-conventional": "^21.2.4"
+  }
+}
